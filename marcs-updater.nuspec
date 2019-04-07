@@ -9,7 +9,7 @@
     <title>Marcs Updater</title>
     <authors>Marc Hörsken</authors>
     <projectUrl>https://updater.marc-hoersken.de/</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/virtualex-itv/choco-marcs-updater/master/_icons/marcsupdater.png</iconUrl>
+    <iconUrl>https://cdn.staticaly.com/gh/virtualex-itv/choco-marcs-updater/a7ae0a98/_icon/marcsupdater.png</iconUrl>
     <copyright>Copyright © 2014-2019 Marc Hörsken.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>marcs updater dns dns-o-matic dyndns no-ip opendns</tags>
