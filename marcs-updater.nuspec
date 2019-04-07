@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>marcs-updater</id>
+    <version>1.5.3.305</version>
+	<packageSourceUrl>https://github.com/virtualex-itv/choco-marcs-updater/tree/master/</packageSourceUrl>
+    <owners>virtualex</owners>
+    <title>Marcs Updater</title>
+    <authors>Marc Hörsken</authors>
+    <projectUrl>https://updater.marc-hoersken.de/</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/virtualex-itv/choco-marcs-updater/master/_icons/marcsupdater.png</iconUrl>
+    <copyright>Copyright © 2014-2019 Marc Hörsken.</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>marcs updater dns dns-o-matic dyndns no-ip opendns</tags>
+    <summary>Marcs Updater sends IP changes to your dynamic DNS account automatically.</summary>
+    <description>Your router does not support the service providers DNS-O-Matic, DynDNS, No-IP, OpenDNS, selfhost.de, spDNS (medical-it-services.de) or STRATO by default, or is limited in the number of dynamic DNS providers?  You can use this simple client to send IP changes to your dynamic DNS account automatically.  Marcs Updater is built for Windows and runs under Windows XP SP3 or newer.</description>
+    <releaseNotes>https://updater.marc-hoersken.de/downloads/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
