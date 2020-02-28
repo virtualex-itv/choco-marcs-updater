@@ -1,7 +1,10 @@
-version: 1.5.3.305.{build}
+version: 1.5.3.310-beta.{build}
 environment:
   TOKEN:
     secure: 7vdY1FDIcMA9+2GbVc/cmQSEDVPeypkvbLAkK1M7RzHyBuVBZh3wdLy5dElG3K7G
+
+before_build:
+  - ps: cup chocolatey -y
 
 build_script:
   - ps: choco pack
